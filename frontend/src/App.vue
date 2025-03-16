@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <RouterLink class="nav-link active" aria-current="page" to="/">Listes des enseingants</RouterLink>
+              <h2 class="nav-link active" aria-current="page" >Listes des enseingants</h2>
             </li>
           </ul>
         </div>

@@ -9,16 +9,7 @@ const router = createRouter({
       name: 'enseignants',
       component: Enseignant,
     },
-    {
-      path: '/ajout',
-      name: 'ajout',
-      component: () => import('../views/Ajout.vue'),
-    },
-    {
-      path: '/:matricule/edit',
-      name: 'edit',
-      component: () => import('../views/Edit.vue'),
-    },
+    
   ],
 })
 
